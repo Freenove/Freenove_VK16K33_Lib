@@ -1,0 +1,25 @@
+Name: VK16K33 Library for ESP32
+
+This library should be reasonably self-explanatory, and I’ve provided a few example sketches to get you started.
+
+The API commands are, in no particular order:
+
+init(uint8_t addr = 0x71);
+init(uint8_t addr, uint8_t sda, uint8_t scl);
+setBrightness(uint8_t brightness);sets the brightness of the display (0–15)
+setBlink(uint8_t blink);sets the blink rate of the display (see note below)
+resetOrientation();resets the orientation of the display to the defaults
+reverse();reverses the order of the two 8x8 sub-matrices (again, see note below)
+flipVertical();flips the matrix data vertically before writing to the IC
+flipHorizontal();flips the matrix data horizontally before writing to the IC
+clear();clears the matrix completely
+setRow(uint8_t row, uint8_t value, bool rowDirection = 0);sets the content of an entire row (16 bits)
+show(void);show the display buffer to the IC (updates the display)
+
+// show led matrix
+void showStaticArray(byte *array1, byte *array2);
+void showLedMatrix(byte array[8][8],int x_offset=4,int y_offset=4);
+	  
+
+
+Share and enjoy!

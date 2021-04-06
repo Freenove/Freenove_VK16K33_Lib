@@ -1,0 +1,38 @@
+#######################################
+# Syntax Coloring Map VK16K33
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Freenove_VK16K33_Lib   KEYWORD1
+Freenove_VK16K33         KEYWORD1 
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+showMoveLeft              KEYWORD2
+showMoveRight            KEYWORD2
+showMoveUp               KEYWORD2
+showMoveDowm          KEYWORD2
+showStaticArray            KEYWORD2
+
+VK16K33_BLINK_OFF	    KEYWORD2
+VK16K33_BLINK_1HZ	    KEYWORD2
+VK16K33_BLINK_2HZ	    KEYWORD2
+VK16K33_BLINK_0HZ5	    KEYWORD2
+matrix                         KEYWORD2
+init	                   KEYWORD2
+setBrightness	     KEYWORD2
+setBlink 		     KEYWORD2
+resetDirection	     KEYWORD2
+reverse	                   KEYWORD2
+flipVertical	     KEYWORD2
+flipHorizontal              KEYWORD2
+clear		     KEYWORD2
+setRow                       KEYWORD2
+show                          KEYWORD2
+
+
