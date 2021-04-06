@@ -127,7 +127,6 @@ matrix.init(0x71);
 	* VK16K33_BLINK_1HZ	    
 	* VK16K33_BLINK_2HZ	    
 	* VK16K33_BLINK_0HZ5	    
-```
 
 
 
