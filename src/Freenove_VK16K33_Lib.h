@@ -1,9 +1,9 @@
-#ifndef _FREENOVE_VK16K33_H
-#define _FREENOVE_VK16K33_H
+#ifndef _FREENOVE_VK16K33_LIB_H
+  #define _FREENOVE_VK16K33_LIB_H
 
   // include appropriate version of Arduino code
 #if defined(ARDUINO) && ARDUINO >= 100
-#include "arduino.h"
+#include "Arduino.h"
 #else
 #include "WProgram.h"
 #endif
@@ -34,7 +34,7 @@
 	  void init(uint8_t addr = 0x71);
 
 #if defined (ESP8266) || defined(ESP32)
-      void init(uint8_t addr= 0x71, uint8_t sda, uint8_t scl);
+      void init(uint8_t addr = 0x71, int sda = 13, int scl = 14);
 #endif
 
       // brightness control

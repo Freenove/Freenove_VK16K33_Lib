@@ -1,4 +1,3 @@
-#include <Wire.h>
 #include "Freenove_VK16K33_Lib.h"
 
 /**
@@ -46,7 +45,7 @@ void Freenove_VK16K33::init(uint8_t addr)
 
 #if defined (ESP8266) || defined(ESP32)
 // Constructor
-void Freenove_VK16K33::init(uint8_t addr, uint8_t sda, uint8_t scl)
+void Freenove_VK16K33::init(uint8_t addr, int sda, int scl)
 {
   // orientation flags
   resetDirection();
